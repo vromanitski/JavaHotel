@@ -30,7 +30,7 @@ public class LoginServlet extends HttpServlet {
         user.setUserPassword(userPassword);
 
 
-        //TODO *add a binding to the session and fix jsp mapping!!!
+        //TODO *add a binding to the session and fix jsp mapping !!!
         /*try {
             if (loginDao.validate(user)) {
                 HttpSession session = request.getSession();

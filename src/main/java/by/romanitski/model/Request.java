@@ -4,6 +4,8 @@ public class Request {
 
     private String userTimeOfStay;
 
+
+    //TODO *optimize the data type !!!
     public String getUserTimeOfStay() {
         return userTimeOfStay;
     }
